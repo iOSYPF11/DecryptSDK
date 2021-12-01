@@ -1,0 +1,11 @@
+framework module DecryptSDK {
+  umbrella header "DecryptSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DecryptSDK.Swift {
+    header "DecryptSDK-Swift.h"
+    requires objc
+}
